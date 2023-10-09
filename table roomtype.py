@@ -1,0 +1,10 @@
+import mysql.connector as sql
+conn= sql.connect(host="localhost",user="root",password="tiger",database="hotel")
+c1=conn.cursor()
+c1.execute('create table roomtype(sno varchar(5) not null,roomtype varchar(20) not null,rent integer not null);')
+c1.execute('insert into roomtype values(1,"general", 1000);')
+c1.execute('insert into roomtype values(2,"double bedroom", 4000);')
+c1.execute('insert into roomtype values(3,"delux", 10000);')
+c1.execute('insert into roomtype values(4,"suite", 25000);')
+conn.commit()
+print("table roomtype created successfully")
