@@ -36,17 +36,17 @@ Clone the repository:
 git clone https://github.com/yourusername/hotel-management-python.git
 
 
-Install Python dependencies:
-You can just navigate to the project directory and install the required Python packages (if you're using Flask).
+<h4>Install Python dependencies:</h4>
+You can just navigate to the project directory and install the required Python packages.
 
 cd hotel-management-python
 pip install -r requirements.txt  # If using Flask, or install necessary libraries like Flask
 
 
-Database Setup:
+<h4>Database Setup:</h4>
 The system uses SQLite for storing data. A simple schema is provided in database_setup.py.
 
-To set up the database:
+<h4>To set up the database:</h4>
 
 python database_setup.py
 
@@ -61,20 +61,19 @@ python app.py
 
 The application should now be running locally. You can interact with it through the command line interface.
 
-<h1>Usage</h1>
-Main Features:
+<h1>Main Features</h1>
 
-Room Booking:
+<h3>Room Booking:</h3>
 
 Enter the room number, guest name, check-in, and check-out dates.
 
 The system will check availability and book the room if available.
 
-Check-In/Check-Out:
+<h3>Check-In/Check-Out:</h3>
 
 Admin can mark a guest as checked in or checked out by providing the guest ID.
 
-View Available Rooms:
+<h3>View Available Rooms:</h3>
 
 Admin can see which rooms are available based on selected dates.
 
