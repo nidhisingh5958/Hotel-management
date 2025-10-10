@@ -2,7 +2,7 @@
 
 This is a basic Hotel Management System built using Python and SQLite for a simple backend. It allows basic operations like managing room bookings, guest check-in/check-out, and viewing the availability of rooms. This is a minimal version of a hotel management application for learning and development purposes.
 
-<h2>Features</h2>
+<h1>Features</h1>
 
 <h3>Room Booking:</h3> Allows guests to book rooms for specific dates.
 
@@ -14,13 +14,13 @@ This is a basic Hotel Management System built using Python and SQLite for a simp
 
 <h3>Simple Console Interface:</h3> This version uses a command-line interface.
 
-<h2>Technologies Used</h2>
+<h1>Technologies Used</h1>
 
 <h3>Backend:</h3> Python (Flask or plain Python scripts)
 
 <h3>Database:</h3> SQLite (lightweight database for simplicity)
 
-<h2>Installation Prerequisites</h2>
+<h1>Installation Prerequisites</h1>
 
 Ensure you have the following installed on your local machine:
 
@@ -29,7 +29,7 @@ Ensure you have the following installed on your local machine:
 
 - SQLite (SQLite comes built-in with Python)
 
-Steps to Install
+<h2>Steps to Install</h2>h2>
 
 Clone the repository:
 
@@ -37,10 +37,10 @@ git clone https://github.com/yourusername/hotel-management-python.git
 
 
 Install Python dependencies:
-Navigate to the project directory and install the required Python packages (if you're using Flask).
+You can just navigate to the project directory and install the required Python packages (if you're using Flask).
 
 cd hotel-management-python
-pip install -r requirements.txt  # If using Flask, or just install necessary libraries like Flask
+pip install -r requirements.txt  # If using Flask, or install necessary libraries like Flask
 
 
 Database Setup:
@@ -61,7 +61,7 @@ python app.py
 
 The application should now be running locally. You can interact with it through the command line interface.
 
-Usage
+<h1>Usage</h1>
 Main Features:
 
 Room Booking:
