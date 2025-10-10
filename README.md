@@ -16,7 +16,7 @@ This is a basic Hotel Management System built using Python and SQLite for a simp
 
 <h1>Technologies Used</h1>
 
-<h3>Backend:</h3> Python (Flask or plain Python scripts)
+<h3>Backend:</h3> Python 
 
 <h3>Database:</h3> SQLite (lightweight database for simplicity)
 
@@ -24,23 +24,22 @@ This is a basic Hotel Management System built using Python and SQLite for a simp
 
 Ensure you have the following installed on your local machine:
 
-- Python 3.x (You can download it from here
-)
+- Python 3.x 
 
-- SQLite (SQLite comes built-in with Python)
+- SQLite 
 
-<h2>Steps to Install</h2>h2>
+<h2>Steps to Install</h2>
 
-Clone the repository:
+<h4>Clone the repository:</h4>
 
-git clone https://github.com/yourusername/hotel-management-python.git
+'''git clone https://github.com/yourusername/hotel-management-python.git'''
 
 
 <h4>Install Python dependencies:</h4>
 You can just navigate to the project directory and install the required Python packages.
 
-cd hotel-management-python
-pip install -r requirements.txt  # If using Flask, or install necessary libraries like Flask
+'''cd hotel-management-python
+pip install -r requirements.txt  # If using Flask, or install necessary libraries like Flask'''
 
 
 <h4>Database Setup:</h4>
@@ -48,7 +47,7 @@ The system uses SQLite for storing data. A simple schema is provided in database
 
 <h4>To set up the database:</h4>
 
-python database_setup.py
+'''python database_setup.py'''
 
 
 This will create the database (hotel_management.db) and the required tables.
@@ -56,7 +55,7 @@ This will create the database (hotel_management.db) and the required tables.
 Run the application:
 Once everything is set up, run the main Python script to start the system.
 
-python app.py
+'''python app.py'''
 
 
 The application should now be running locally. You can interact with it through the command line interface.
