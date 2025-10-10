@@ -6,29 +6,28 @@ This is a basic Hotel Management System built using Python and SQLite for a simp
 
 <h3>Room Booking:</h3> Allows guests to book rooms for specific dates.
 
-<h3>Check-In/Check-Out:/h3> Manage guest check-in and check-out.
+<h3>Check-In/Check-Out:</h3> Manage guest check-in and check-out.
 
-<h3>Room Availability:/h3> Check available rooms based on dates.
+<h3>Room Availability:</h3> Check available rooms based on dates.
 
-<h3>Guest Management:/h3> Store basic guest information like name and contact details.
+<h3>Guest Management:</h3> Store basic guest information like name and contact details.
 
-<h3>Simple Console Interface:/h3> This version uses a command-line interface.
+<h3>Simple Console Interface:</h3> This version uses a command-line interface.
 
 <h2>Technologies Used</h2>
 
 <h3>Backend:</h3> Python (Flask or plain Python scripts)
 
-Database: SQLite (lightweight database for simplicity)
+<h3>Database:</h3> SQLite (lightweight database for simplicity)
 
-Installation
-Prerequisites
+<h2>Installation Prerequisites</h2>
 
 Ensure you have the following installed on your local machine:
 
-Python 3.x (You can download it from here
+- Python 3.x (You can download it from here
 )
 
-SQLite (SQLite comes built-in with Python)
+- SQLite (SQLite comes built-in with Python)
 
 Steps to Install
 
