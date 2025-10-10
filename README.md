@@ -32,18 +32,18 @@ Ensure you have the following installed on your local machine:
 
 <h4>Clone the repository:</h4>
 
-'''
+```
 git clone https://github.com/yourusername/hotel-management-python.git
-'''
+```
 
 
 <h4>Install Python dependencies:</h4>
 You can just navigate to the project directory and install the required Python packages.
 
-'''
+```
 cd hotel-management-python
 pip install -r requirements.txt  # If using Flask, or install necessary libraries like Flask
-'''
+```
 
 
 <h4>Database Setup:</h4>
@@ -51,9 +51,9 @@ The system uses SQLite for storing data. A simple schema is provided in database
 
 <h4>To set up the database:</h4>
 
-'''
+```
 python database_setup.py
-'''
+```
 
 
 This will create the database (hotel_management.db) and the required tables.
@@ -61,9 +61,9 @@ This will create the database (hotel_management.db) and the required tables.
 Run the application:
 Once everything is set up, run the main Python script to start the system.
 
-'''
+```
 python app.py
-'''
+```
 
 
 The application should now be running locally. You can interact with it through the command line interface.
